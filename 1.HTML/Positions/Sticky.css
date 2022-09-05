@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    font-size: 20px;
+    height: 2000px;
+}
+
+.container {
+    background-color: darkgoldenrod;
+    border: 1px solid black;
+    height: 1900px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.sticky {
+    position: sticky;
+    top: 20px;
+}
+
+.item {
+    border: 1px solid blue;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2em;
+    font-weight: 600;
+    margin: 2%;
+}
+
+#item-1 {
+    background-color: lightblue;
+}
+
+#item-2 {
+    background-color: lightcoral;
+}
+
+#item-3 {
+    background-color: lightgreen;
+}
+
+#item-4 {
+    background-color: lightsalmon;
+}
