@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Forms.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="container">
+    <h1 class="heading_1">SignUp Form</h1>
+    <hr>
+    <h2 class="heading_2">User Information</h2>
+    <div>
+        <label for="fname">Name : </label>
+        <input type="text" name="fname" id="inputName" placeholder="abc">
+    </div>
+    <div>
+        <label for="UserName">User Name : </label>
+        <input type="text" name="UserName" id="inputUserName" >
+    </div>
+    <div>
+        <label for="Email">Email : </label>
+        <input type="email" name="Email" id="inputEmail" placeholder="abc@gmail.com">
+    </div>
+    <div>
+        <label for="Password">Password : </label>
+        <input type="password" name="Password" id="inuputPassword">
+    </div>
+    <div>
+        <label for="DOB">Date Of Birth </label>
+        <input type="date" name="DOB" id="inputDOB">
+    </div>
+    <div>
+        <label for="Phone">Phone Number :</label>
+        <input type="number" name="Phone" id="inputPhone" placeholder="12345 67890">
+    </div>
+    <div>
+        <label for="gender">Gender </label> <br> 
+        <div>
+        <input type="radio" name="gender" id="gender"> 
+        <label for="male">Male</label>
+        </div>
+        <div>
+        <input type="radio" name="gender" id="gender"> 
+        <label for="female">Female</label>
+        </div>
+    </div>
+    <div>
+        <label for="address">Address :</label>
+        <textarea name="address" id="address" cols="20" rows="5" placeholder="Enter Your Address" required></textarea>
+    </div>
+    <div>
+        <label for="pincode">Pincode :</label>
+        <input type="number" name="pincode" id="pincode" placeholder="123456" required>
+    </div>
+    <div>
+        <label for="Resume">Upload Resume : </label>
+        <input type="file" name="Resume" id="inputResume">
+    </div>
+    <div>
+        <label for="ddlCountry">Country</label>
+        <select name="ddlCountry" id="ddlCountry">
+            <option value="Select">Select</option>
+            <option value="India">India</option>
+            <option value="UK">UK</option>
+            <option value="China">China</option>
+        </select>
+    </div>
+    <div>
+        <input type="checkbox" name="T&C" id="inputT&C">
+        <label for="T&C">Terms & Conditions</label>
+    </div>
+    <div>
+        <input type="submit" value="Submit">
+    </div>
+    </div>
+</body>
+</html>
