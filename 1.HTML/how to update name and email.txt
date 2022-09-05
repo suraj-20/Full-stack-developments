@@ -1,0 +1,10 @@
+
+How to update git user name and email
+
+git config --global user.email "test@gmail.com"
+
+git config --global user.name "name"
+
+git config user.email
+
+git config user.name
