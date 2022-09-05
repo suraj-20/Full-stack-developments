@@ -1,0 +1,52 @@
+.card {
+    padding: 0px;
+    height: 150px;
+    width: 350px;
+    border: 1px solid lightcyan;
+    border-radius: 1px;
+    display: inline-flex;
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    box-shadow: 0 3px 6px gray;
+    cursor: pointer;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+
+
+.tileComponent {
+    width: 95%;
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.nameElement {
+    margin-top: 15px;
+    display: flex;
+    padding-left: 15px;
+}
+
+.locationElement {
+    display: flex;
+    padding-left: 15px;
+}
+
+.contactElement {
+    display: flex;
+    padding-left: 15px;
+}
